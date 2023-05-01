@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="top|center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".calculate_water">
+    
+    <ImageView
+        android:layout_width="495dp"
+        android:layout_height="170dp"
+        android:src="@drawable/top_background" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Water of Day"
+        android:textColor="#00C3FF"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        style="@android:style/TextAppearance.Material.Headline"
+        android:padding="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name1"
+        android:padding="10dp"
+        style="@android:style/TextAppearance.Material.Headline" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bmi"
+        android:padding="6dp"
+        style="@android:style/TextAppearance.Material.Headline" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/water1"
+        android:padding="4dp"
+        style="@android:style/TextAppearance.Material.Headline" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Next"
+        android:text="BACK"
+        android:theme="@style/Theme.Material3.DynamicColors.Dark"
+        android:textColorHighlight="#32CD32"
+        />
+
+
+    <ImageView
+        android:layout_width="495dp"
+        android:layout_height="315dp"
+        android:src="@drawable/bottom_background" />
+
+
+</LinearLayout>
